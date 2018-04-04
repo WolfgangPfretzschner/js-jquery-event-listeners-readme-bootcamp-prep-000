@@ -11,7 +11,7 @@ function frameIt(){
 }
 
 function pressIt(){
-  $('.input')
+  $('#typing')
 }
 
 function submitIt(){
