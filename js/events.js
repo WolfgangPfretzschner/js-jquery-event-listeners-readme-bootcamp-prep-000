@@ -22,7 +22,7 @@ function submitIt(){
   $('form').on('submit' ,function (){
     alert('Your form is going to be sumbitted now.')
     })
-  $('div').trigger('submit')
+  
 }
 
 $(document).ready(function(){
