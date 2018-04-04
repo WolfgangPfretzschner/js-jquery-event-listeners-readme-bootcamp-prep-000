@@ -20,6 +20,7 @@ function pressIt(){
 
 function submitIt(){
   $('submit')
+    alert('Your form is going to be sumbitted now.')
 }
 
 $(document).ready(function(){
