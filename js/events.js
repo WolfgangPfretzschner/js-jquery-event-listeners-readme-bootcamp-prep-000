@@ -12,7 +12,9 @@ function frameIt(){
 
 function pressIt(){
   $('#typing').on('keypress', function (){
-    
+    if (key.which == 81){
+    alert('enter was pressed');
+  }
   })
 }
 
