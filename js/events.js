@@ -1,17 +1,17 @@
 function getIt(){
-  $('div')on('click', function(){
+  $('div').on('click', function(){
     alert ('Hey!')
   })
 }
 
 function frameIt(){
-  $('img')on('load',function (){
+  $('img').on('load',function (){
     $('img').addClass("tasty");
   })
 }
 
 function pressIt(){
-  
+  $('.input')
 }
 
 function submitIt(){
