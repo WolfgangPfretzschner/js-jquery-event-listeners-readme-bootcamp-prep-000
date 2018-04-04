@@ -19,7 +19,7 @@ function pressIt(){
 }
 
 function submitIt(){
-  $('form').on('submit' ,function (){
+  $('form input:child-last').on('submit' ,function (){
     alert('Your form is going to be sumbitted now.')
     })
   $('form').trigger('submit')
